@@ -8,7 +8,7 @@ namespace Statistics {
         double minimum;
         double maximum;
         Stats(double avg = 0.0, double min = 0.0, double max = 0.0)
-            : average(avg), minimum(min), maximum(maxVal) {}
+            : average(avg), minimum(min), maximum(max) {}
     };
     
     Stats ComputeStatistics(const std::vector<double>& );
