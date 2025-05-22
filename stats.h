@@ -1,7 +1,14 @@
+#pragma once
 #include <vector>
 
 namespace Statistics {
-    // define the Stats structure here. See the tests to infer its properties
-    
-    Stats ComputeStatistics(const std::vector<___>& );
+
+    struct Stats {
+        float average;
+        float minimum;
+        float maximum;
+    };
+
+    Stats ComputeStatistics(const std::vector<float>& numbers);  // Declare the function
+
 }
